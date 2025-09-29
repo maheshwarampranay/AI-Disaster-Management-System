@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { MapPin, Shield, Users, AlertTriangle } from "lucide-react";
+import { MapPin, Users, AlertTriangle } from "lucide-react";
 import { toast } from "sonner";
 
 const GetStarted = () => {
@@ -48,15 +48,6 @@ const GetStarted = () => {
 
   return (
     <div className="min-h-screen bg-gradient-map flex items-center justify-center p-6">
-      {/* Admin Login Button */}
-      <Button
-        variant="outline"
-        onClick={() => navigate("/admin-login")}
-        className="absolute top-6 right-6 border-primary/30 text-primary hover:bg-primary/10"
-      >
-        <Shield className="w-4 h-4 mr-2" />
-        Login as Admin
-      </Button>
 
       <div className="max-w-4xl w-full">
         <div className="text-center mb-12 animate-fade-in-up">
