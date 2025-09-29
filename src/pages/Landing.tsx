@@ -63,14 +63,6 @@ const Landing = () => {
               Get Started
             </Button>
             
-            <Button 
-              variant="outline" 
-              size="lg"
-              onClick={() => navigate("/admin-login")}
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-6 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105"
-            >
-              Admin Access
-            </Button>
           </div>
         </div>
       </div>

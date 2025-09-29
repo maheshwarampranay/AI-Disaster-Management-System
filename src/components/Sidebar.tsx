@@ -113,14 +113,6 @@ export function Sidebar({ activeLayer, onLayerChange, isOpen, onToggle }: Sideba
                     <Home className="w-4 h-4 mr-3" />
                     Home
                   </Button>
-                  <Button
-                    variant="ghost"
-                    className="w-full justify-start text-left"
-                    onClick={() => navigate("/admin-login")}
-                  >
-                    <Shield className="w-4 h-4 mr-3" />
-                    Admin Portal
-                  </Button>
                 </div>
               </div>
             )}
